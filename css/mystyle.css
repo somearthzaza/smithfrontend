@@ -1,0 +1,35 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.cenlist{
+    margin: auto;
+    min-width: 80%;
+}
+.container{
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.icon{
+    margin-left: 5%;
+}
+.iconleft{
+margin-right: 5%;
+height: 100%;
+}
+.nav-item{
+    padding: 3% auto;
+    margin: auto;
+}
+.iconreal{
+ padding: 10px 10px;
+}
+.ftco-nav {
+    position: absolute;
+    width: 100%;
+    
+}
