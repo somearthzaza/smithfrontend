@@ -33,3 +33,19 @@ $('.owl-carousel').owlCarousel({
         },
     }
 });
+
+var nav = document.querySelector("nav");
+
+window.addEventListener('scroll' , function () {
+    if(window.pageYOffset <100){
+        nav.classList.remove('bg-dark');
+        nav.classList.add('ftco-nav');
+    }
+    if(window.pageYOffset > 100){
+        nav.classList.remove('ftco-nav');
+        nav.classList.add('bg-dark');
+        
+    }else{
+        nav.classList.remove("bg-light");
+    }
+})

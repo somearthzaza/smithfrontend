@@ -8,6 +8,9 @@
     font-family: ;
     src: url(vendor/);
 }
+.black{
+    color: black;
+}
 .gold{
     color:#cfba8b ;
 }
@@ -21,15 +24,9 @@
     margin: auto;
     min-width: 80%;
 }
-.container{
-    width: 100%;
-    padding-right: 15px;
-    padding-left: 15px;
- 
-}
 .icon{
-   
     margin-left: 2%;
+    max-width: 100%;
 }
 .serbirimo{
     position: relative;
@@ -61,10 +58,7 @@ width:15px;
 height: 15px;
 border-radius: 100%;
 }
-.logonav{
-    max-width: 220px;
-    width: 100%;
-}
+
 .font-white{
     color: white;
 }
@@ -82,7 +76,7 @@ border-radius: 100%;
 }
 .ser1 a{
     font-size: 2.3vw;
-    color: black;
+    
     text-decoration: none;
 }
 .ser1 .textser{
@@ -149,7 +143,9 @@ border-radius: 100%;
     width: 100%;
 }
 .aboutus .imgzas2{
-    margin-top: 10%;
+   max-width:100% ;
+   width: 100%;
+   min-height: 100%;
 }
 .wsrow{
 margin-bottom: 4em;
@@ -203,9 +199,7 @@ margin-bottom: 4em;
 }
 @media only screen and (min-width: 320px) and (max-width: 479px) {
 
-    .serbiri{
-        position: relative;
-    }
+   
     .carousel-indicators [data-bs-target] {
         width: 10px;
         height: 10px;
@@ -219,7 +213,12 @@ margin-bottom: 4em;
         border-radius: 100%;
     }
 }
-@media only screen and (min-width: 641px) and (max-width: 979px) {}
+@media only screen and (min-width: 641px) and (max-width: 979px) {
+   
+}
 @media only screen and (min-width: 980px) and (max-width: 1024px) {}
-@media only screen and (min-width: 1025px) and (max-width: 1200px) {}
+@media only screen and (min-width: 1025px) and (max-width: 1200px) { 
+
+
+}
 @media only screen and (min-width: 1201px) and (max-width: 1500px) {}
