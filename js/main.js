@@ -38,14 +38,16 @@ var nav = document.querySelector("nav");
 
 window.addEventListener('scroll' , function () {
     if(window.pageYOffset <100){
-        nav.classList.remove('bg-dark');
+        nav.style.padding = "20px 10px";
         nav.classList.add('ftco-nav');
+        nav.classList.remove('bg-dark');
     }
     if(window.pageYOffset > 100){
+        nav.style.padding = "20px 10px"
         nav.classList.remove('ftco-nav');
         nav.classList.add('bg-dark');
-        
     }else{
+        nav.style.padding = "10px 10px"
         nav.classList.remove("bg-light");
     }
 })

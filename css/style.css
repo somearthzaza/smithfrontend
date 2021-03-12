@@ -62,7 +62,7 @@
     
     .navbar-light .navbar-nav .nav-link:focus,
     .navbar-light .navbar-nav .nav-link:hover {
-        color: #33292c;
+       color: white;
     }
     
     header.masthead {
@@ -379,13 +379,13 @@
     /* -------------------------------------------------------------- product page------------------------------------------------------------------------------------------------------------- */
     
     .navbar-dark .navbar-nav .nav-link.active,
-    .navbar-dark .navbar-nav .show>.nav-link {
-        color: #33292C;
+    .navbar-dark .navbar-nav .show.nav-link {
+        color: white;
     }
     
     .navbar-dark .navbar-nav .nav-link:focus,
     .navbar-dark .navbar-nav .nav-link:hover {
-        color: #33292c;
+      color: white
     }
     /* navbar */
     
@@ -407,7 +407,6 @@
     }
     
     .ftco-nav {
-        position: absolute;
         width: 100%;
         z-index: 3;
     }
@@ -564,7 +563,7 @@
         font-size: 32px;
         font-weight: 500;
     }
-    
+   
     .testimonial-text {
         font-size: 22px;
         color: #505965;
@@ -577,7 +576,12 @@
     .underimg1 p{
         font-size: 1.5rem;
     }
-    
+    #mainnav{
+        -webkit-transition:  padding-top 0.3s ease-in-out, padding-bottom 0.3s ease-in-out ,background-color 0.5s ease;
+        -moz-transition:  padding-top 0.3s ease-in-out, padding-bottom 0.3s ease-in-out ,background-color 0.5s ease;
+        -o-transition: padding-top 0.3s ease-in-out, padding-bottom 0.3s ease-in-out ,background-color 0.5s ease; ;
+        transition: padding-top 0.3s ease-in-out, padding-bottom 0.3s ease-in-out ,background-color 0.5s ease;
+    }
     @media screen and (max-width: 480px) {
         .bg-contact {
             background-image: none;
@@ -621,6 +625,9 @@
             margin-left: 13%;
             width: 70%;
         }
+        nav ,.cenlist{
+            background-color: #212529!important;
+        }
     }
     @media only screen and (min-width: 480px) and (max-width: 640px) {
         .logonav{
@@ -647,6 +654,10 @@
         .promoteblock p {
             font-size: 20px;
         }
+        
+        nav ,.cenlist{
+            background-color: #212529!important;
+        }
     }
     @media only screen and (min-width: 641px) and (max-width: 979px) {
         .ser1 a{
@@ -658,7 +669,8 @@
         .btpromo{
             margin-top: 30%;
         }
-        .cenlist{
+       
+        nav, .cenlist{
             background-color: #212529!important;
         }
     }
@@ -668,6 +680,9 @@
         }
         .btpromo{
             margin-top: 30%;
+        }
+        nav {
+            background-color: transparent(255,255,255,0);
         }
     }
     @media only screen and (min-width: 1025px) and (max-width: 1200px) { 
