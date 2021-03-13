@@ -1,5 +1,5 @@
-$('.owl-carousel').owlCarousel({
-
+$(document).ready(function(){
+    $('#cardproduct').owlCarousel({
     autoplay: true,
     autoplayhoverpause: true,
     autoplaytimeout: 100,
@@ -32,8 +32,42 @@ $('.owl-carousel').owlCarousel({
             dots: true
         },
     }
+    });
+    $('#cardservice').owlCarousel({
+        autoplay: true,
+        autoplayhoverpause: true,
+        autoplaytimeout: 100,
+        items: 4,
+        nav: true,
+        loop: true,
+        lazyLoad: true,
+        margin: 5,
+        padding: 5,
+        stagePadding: 5,
+        responsive: {
+            0: {
+                items: 1,
+                dots: false
+            },
+            485: {
+                items: 2,
+                dots: false
+            },
+            728: {
+                items: 4,
+                dots: false
+            },
+            960: {
+                items: 4,
+                dots: true
+            },
+            1200: {
+                items: 4,
+                dots: true
+            },
+        }
+    });
 });
-
 var nav = document.querySelector("nav");
 
 window.addEventListener('scroll' , function () {
