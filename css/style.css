@@ -199,7 +199,9 @@
         padding-top: 9px;
         padding-left: px;
     }
-    
+    .invis{
+        display: none;
+    }
     .serbiri {
         display: inline;
         position: absolute;
