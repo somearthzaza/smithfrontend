@@ -15,15 +15,15 @@ $(document).ready(function() {
                 items: 1,
                 dots: false
             },
-            485: {
+            480: {
                 items: 2,
                 dots: false
             },
-            728: {
+            768: {
                 items: 3,
                 dots: false
             },
-            960: {
+            992: {
                 items: 3,
                 dots: true
             },
@@ -50,15 +50,15 @@ $(document).ready(function() {
                 items: 1,
                 dots: false
             },
-            485: {
+            480: {
                 items: 2,
                 dots: false
             },
-            728: {
+            768: {
                 items: 4,
                 dots: true
             },
-            960: {
+            992: {
                 items: 4,
                 dots: true
             },
@@ -94,7 +94,7 @@ window.addEventListener('scroll', function() {
         nav.style.padding = "10px 10px"
         nav.classList.remove("bg-light");
     }
-})
+});
 window.addEventListener('resize', function() {
     var nav = document.querySelector("nav");
     if (window.innerWidth < 980) {
@@ -102,16 +102,12 @@ window.addEventListener('resize', function() {
     } else if (window.innerWidth > 981) {
         nav.classList.add('fixed-top');
     }
-<<<<<<< HEAD
 });
 
 $('.btn-zoom').magnificPopup({
     type: 'image'        // other options
 });
 
-=======
-})
->>>>>>> 90fde29966992c85a09f45cf1635733dce71471d
 $("#firstmap").click(function(){
     $("#firstmap").addClass("actbtmap");
     $("#secondmap").removeClass("actbtmap");
