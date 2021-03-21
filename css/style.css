@@ -199,6 +199,12 @@
         padding-top: 9px;
         padding-left: px;
     }
+<<<<<<< HEAD
+    .serbiri {
+        margin-left: 33%;
+    }
+=======
+>>>>>>> 90fde29966992c85a09f45cf1635733dce71471d
     .invis{
         display: none;
     }
@@ -328,6 +334,16 @@
     .contact-form-txtarea::placeholder {
         color: #505965;
     }
+<<<<<<< HEAD
+
+
+
+/* X-Small devices (portrait phones, less than 576px) */
+
+@media only screen and (max-width: 576px) {
+    .logonav {
+        width: 40%;
+=======
     
     .contact-form-btn {
         width: 100%;
@@ -479,6 +495,7 @@
     .white [data-bs-target] {
         color: white;
         background-color: white;
+>>>>>>> 90fde29966992c85a09f45cf1635733dce71471d
     }
     
     .logonav {
@@ -631,10 +648,16 @@
         display: flex;
         margin-left: 100px;
     }
+<<<<<<< HEAD
+    .btpromo {
+        margin-top: 30%;
+    }
+=======
+>>>>>>> 90fde29966992c85a09f45cf1635733dce71471d
     .boxger {
         border-right: black solid 1px;
         padding-right: 25px;
-        
+
     }
     .boxger2{
         border-left: black solid 1px;
@@ -681,7 +704,6 @@
         z-index: 1;
         overflow: hidden;
     }
-    
     .product-title h1 {
         font-size: 48px;
         text-transform: uppercase;
@@ -721,12 +743,23 @@
         color: #505964;
         font-weight: 500;
     }
+<<<<<<< HEAD
+}
+}
+
+/* Large devices (desktops, less than 1200px) */
+
+@media only screen and (max-width: 1200px) {
+    .btpromo {
+        margin-top: 30%;
+=======
     
     .product-tab .propertie-tab ul li {
         font-size: 22px;
         color: #505964;
         font-weight: 500;
         list-style-type: disc;
+>>>>>>> 90fde29966992c85a09f45cf1635733dce71471d
     }
     
     .howto-product-area {
@@ -796,9 +829,7 @@
     .btserright{
         color: #886a36;
     }
-    .cardser:hover{
-        
-    }
+    
     .btser a{
         width: 100%;
         border: 1px solid #e1d1ba;
@@ -860,9 +891,7 @@
             height: 600px;
             overflow: hidden;
         }
-        .controlimg{
-            margin-left: ;
-        }
+     
         .coralsel{
             margin-right: 20px;
             margin-top: 20px;
@@ -881,15 +910,18 @@
         .imgleftcallme img{
            height: 160px;
         }
-        .mapbox{
+        .mapbox
+        {
             position: relative;
             height: 100%;
         }
-        .btswitch{
+        .btswitch
+        {
             margin: 20px 0 0 20px;
             position: absolute;
         }
-        .btswitch button{
+        .btswitch button
+        {
             border: 1px solid;
             border-collapse: collapse;
             padding: 2px;
@@ -899,19 +931,23 @@
         #map2{
             display: none;
         }
-        .btswitch button:hover ,button:active , .actbtmap{
+        .btswitch button:hover ,button:active , .actbtmap
+        {
             background-color: #33292C;
             color: white;
         }
-        .firstmap ,.secondmap{
+        .firstmap ,.secondmap
+        {
             background-color: white;
             color: #7D6229;
         }
-        .servicedebox3 ul{
+        .servicedebox3 ul
+        {
             border-left: 1px solid black ;
             padding-left: 25px;
         }
-        .coralsel img{
+        .coralsel img
+        {
             border: 1px solid black;
             margin: auto;
         max-width:200px;
@@ -1207,4 +1243,16 @@
         }
     }
     
+<<<<<<< HEAD
     @media only screen and (min-width: 1201px) and (max-width: 1500px) {}
+    
+    @media only screen and (min-width:2560px) {
+        .product-propertie {
+            background-image: url(../img/product/mid-08-test.png);
+            padding: 15% 5% 5% 30%;
+        }
+    }
+
+=======
+    @media only screen and (min-width: 1201px) and (max-width: 1500px) {}
+>>>>>>> 90fde29966992c85a09f45cf1635733dce71471d

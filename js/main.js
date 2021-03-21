@@ -102,7 +102,16 @@ window.addEventListener('resize', function() {
     } else if (window.innerWidth > 981) {
         nav.classList.add('fixed-top');
     }
+<<<<<<< HEAD
+});
+
+$('.btn-zoom').magnificPopup({
+    type: 'image'        // other options
+});
+
+=======
 })
+>>>>>>> 90fde29966992c85a09f45cf1635733dce71471d
 $("#firstmap").click(function(){
     $("#firstmap").addClass("actbtmap");
     $("#secondmap").removeClass("actbtmap");
