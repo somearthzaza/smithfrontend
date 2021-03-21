@@ -12,91 +12,90 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/mystyle.css">
     <style>
-        .info-group div {
-            text-align: center;
-            font-size: 20px;
-            min-width: 64px;
-            min-height: 64px;
-            display: inline-block;
-            border-color: #d7d7d7;
-            border-style: solid;
-            padding: 14px 0;
-            margin: 0 4px;
-        }
-        
-        .jumbo {
-            display: inline-block;
-            color: gainsboro;
-            font-size: 12vh;
-        }
-        
-        .h48 {
-            max-height: 48px;
-        }
-        
-        .shadow\-nav {
-            width: 100vw;
-            position: absolute;
-            z-index: -10;
-            -webkit-box-shadow: 0 0 90px 16px rgba(0, 0, 0, 0.8);
-            -moz-box-shadow: 0 0 90px 16px rgba(0, 0, 0, 0.8);
-            box-shadow: 0 0 90px 16px rgba(0, 0, 0, 0.8);
-        }
-        
-        .section {
-            background-image: url("img/promotion/bg_pic-02.png");
-            background-repeat: no-repeat;
-            background-position: bottom left;
-            min-height: 800px;
-        }
-        
-        .section\-g {
-            background-image: url("img/promotion/bg_mid-08.jpg");
-            background-repeat: no-repeat;
-        }
-        
-        .promotion\-item {
-            font-size: 22px;
-        }
-        
-        .promotion\-item div a,
-        .promotion\-item div a:hover {
-            color: white !important;
-        }
-        
-        .promotion\-item .wfull {
-            width: 105%;
-            transform: translateX(-25px);
-            overflow: hidden;
-        }
-        
-        .xcontainer {
-            margin: auto;
-        }
-        
-        @media (min-width: 576px) {
-            .xcontainer {
-                max-width: 1300px;
-            }
-        }
-        
-        @media (min-width: 768px) {
-            .xcontainer {
-                max-width: 760px;
-            }
-        }
-        
-        @media (min-width: 992px) {
-            .xcontainer {
-                max-width: 990px;
-            }
-        }
-        
-        @media (min-width: 1200px) {
-            .xcontainer {
-                max-width: 1300px;
-            }
-        }
+		.info-group div {
+			text-align: center;
+			font-size: 20px;
+			min-width: 64px;
+			min-height: 64px;
+			display: inline-block;
+			border-color: #d7d7d7;
+			border-style: solid;
+			padding: 14px 0;
+			margin: 0 4px;
+		}
+
+		.jumbo {
+			display: inline-block;
+			color: gainsboro;
+			font-size: 12vh;
+		}
+
+		.h48 {
+			max-height: 48px;
+		}
+
+		.shadow\-nav {
+			width: 100vw;
+			position: absolute;
+			z-index: -10;
+			-webkit-box-shadow: 0 0 90px 16px rgba(0, 0, 0, 0.8);
+			-moz-box-shadow: 0 0 90px 16px rgba(0, 0, 0, 0.8);
+			box-shadow: 0 0 90px 16px rgba(0, 0, 0, 0.8);
+		}
+
+		.section {
+			background-image: url("img/promotion/bg_pic-02.png");
+			background-repeat: no-repeat;
+			background-position: bottom left;
+			min-height: 800px;
+		}
+
+		.section\-g {
+			background-image: url("img/promotion/bg_mid-08.jpg");
+			background-repeat: no-repeat;
+		}
+
+		.promotion\-item {
+			font-size: 22px;
+		}
+
+		.promotion\-item div a, .promotion\-item div a:hover {
+			color: white !important;
+		}
+
+		.promotion\-item .wfull {
+			width: 105%;
+			transform: translateX(-25px);
+			overflow: hidden;
+		}
+
+		.xcontainer {
+			margin: auto;
+		}
+
+		@media (min-width: 576px) {
+			.xcontainer{
+				max-width: 1300px;
+			}
+		}
+
+		@media (min-width: 768px) {
+			.xcontainer {
+				max-width: 760px;
+			}
+		}
+
+		@media (min-width: 992px) {
+			.xcontainer {
+				max-width: 990px;
+			}
+		}
+
+		@media (min-width: 1200px) {
+			.xcontainer {
+				max-width: 1300px;
+			}
+		}
     </style>
 </head>
 <header>
@@ -106,41 +105,43 @@
             <a href="index.html">
                 <img class="logonav" src="img/logo.png" alt="logonav">
             </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0 cenlist">
                     <li class="nav-item">
-                        <a class="nav-link" href="index.html">หน้าหลัก</a>
+                        <a class="nav-link" aria-current="page" href="#">หน้าหลัก</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="service.html">บริการของเรา</a>
+                        <a class="nav-link" href="#">บริการของเรา</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="product.html">ผลิตภัณฑ์บำรุงผิว</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link  active" " aria-current="page " href="promotion.html ">โปรโมชั่น</a>
+                        <a class="nav-link" href="#">โปรโมชั่น</a>
                     </li>
-                    <li class="nav-item ">
-                        <a class="nav-link " href="# ">รีวิว / บทความ</a>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">รีวิว / บทความ</a>
                     </li>
-                    <li class="nav-item ">
-                        <a class="nav-link " href="# ">ทีมแพทย์</a>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">ทีมแพทย์</a>
                     </li>
-                    <li class="nav-item ">
-                        <a class="nav-link " href="# ">คำถามที่พบบ่อย</a>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">คำถามที่พบบ่อย</a>
                     </li>
-                    <li class="nav-item ">
-                        <a class="nav-link " href="contact.html ">ติดต่อเรา</a>
+                    <li class="nav-item">
+                        <a class="nav-link  active" href="contact.html">ติดต่อเรา</a>
                     </li>
-                    <div class="test102 ">
-                        <li class="nav-item ">
-                            <img src="img/search_icon.png " class="fixz " alt=" ">
+                    <div class="test102">
+                        <li class="nav-item">
+                            <img src="img/search_icon.png" class="fixz" alt="">
                         </li>
-                        <li class="nav-item ">
-                            <img src="img/shop_icon.png " alt=" ">
+                        <li class="nav-item">
+                            <img src="img/shop_icon.png" alt="">
                         </li>
                     </div>
                 </ul>
@@ -149,38 +150,40 @@
     </nav>
 </header>
 <main>
-    <section class="section ">
-        <div class="container ">
-            <div class="p-5 row ">
-                <div class="col-6 overflow-hidden tab-content ">
-                    <h1 class="mt-5 ">BUNDLE</h1>
-                    <img src="img/promotion/hline.png " alt=" ">
-                    <p class="text-danger mt-3 ">ที่สุดของความคุ้มค่า เฉพาะเดือนมีนานี้เท่านั้น!</p>
+    <section class="section">
+        <div class="container">
+            <div class="p-5 row">
+                <div class="col-6 overflow-hidden tab-content">
+                    <h1 class="mt-5">BUNDLE</h1>
+                    <img src="img/promotion/hline.png" alt="">
+                    <p class="text-danger mt-3">ที่สุดของความคุ้มค่า เฉพาะเดือนมีนานี้เท่านั้น!</p>
                     <p>ให้คุณดูแลผิวบอบบางด้วยสองผลิตภัณฑ์ จากธรรมชาติได้ก่อนใครในราคาเพียง</p>
-                    <div class="jumbo ">
+                    <div class="jumbo">
                         1590.-
                     </div>
-                    <div class="d-inline-block text-black-50 " style="font-size: 20px "> (ปกติ 1,940 บาท)</div>
+                    <div class="d-inline-block text-black-50" style="font-size: 20px"> (ปกติ 1,940 บาท)</div>
                     <div>
-                        <a href="#! ">
-                            <img class="d-block h48 " src="img/promotion/addtocart.png " alt=" ">
+                        <a href="#!">
+                            <img class="d-block h48" src="img/promotion/addtocart.png" alt="">
                         </a>
                     </div>
-                    <div class="mt-5 ">
-                        <p class="d-block ">
+                    <div class="mt-5">
+                        <p class="d-block">
                             พิเศษ!! บริการจัดส่งฟรีทุกออเดอร์
                         </p>
-                        <p class="d-block ">
+                        <p class="d-block">
                             เฉพาะวันนี้ถึง 31 มี.ค. 2564
                         </p>
                     </div>
                 </div>
-                <div class="col-6 m-auto text-center container ">
-                    <div class="row ">
-                        <div class="col-6 " style="margin-right:-200px;margin-left:100px; "><img src="img/product/smith-basi-clear.png " alt=" "></div>
-                        <div class="col-6 " style="transform:scale(1.2);margin-top:-14px; "><img src="img/product/smith-klarifque-serum.png " alt=" "></div>
+                <div class="col-6 m-auto text-center container">
+                    <div class="row">
+                        <div class="col-6" style="margin-right:-200px;margin-left:100px;"><img
+                                src="img/product/smith-basi-clear.png" alt=""></div>
+                        <div class="col-6" style="transform:scale(1.2);margin-top:-14px;"><img
+                                src="img/product/smith-klarifque-serum.png" alt=""></div>
                     </div>
-                    <div class="text-black-50 info-group ">
+                    <div class="text-black-50 info-group">
                         <div>Back</div>
                         <div>Side</div>
                         <div>Zoom</div>
@@ -190,58 +193,59 @@
             </div>
         </div>
     </section>
-    <section class="section-g ">
-        <div class="xcontainer m-auto ">
-            <div class="row pt-5 pb-5 ">
-                <div class="col-3 text-white promotion-item ">
+    <section class="section-g">
+        <div class="xcontainer m-auto">
+            <div class="row pt-5 pb-5">
+                <div class="col-3 text-white promotion-item">
                     <h2>BUNDLE</h2>
-                    <img class="wfull " src="img/white_line.png " alt="white line ">
-                    <div class="text-nowrap ">ที่สุดของความคุ้มค่า เฉพาะเดือนมีนานี้เท่านั้น!</div>
-                    <p class="text-nowrap text-black-50 ">วันนี้-31 มีนาคม 2564</p>
-                    <img class="d-block " src="img/Basi-clear3.png " alt="product image ">
-                    <div class="d-block pt-3 ">
-                        <a href="#! " class="text-center ">
+                    <img class="wfull" src="img/white_line.png" alt="white line">
+                    <div class="text-nowrap">ที่สุดของความคุ้มค่า เฉพาะเดือนมีนานี้เท่านั้น!</div>
+                    <p class="text-nowrap text-black-50">วันนี้-31 มีนาคม 2564</p>
+                    <img class="d-block" src="img/Basi-clear3.png" alt="product image">
+                    <div class="d-block pt-3">
+                        <a href="#!" class="text-center">
                             <h3>เพิ่มเติม</h3>
                         </a>
                     </div>
                 </div>
-                <div class="col-3 text-white promotion-item ">
+                <div class="col-3 text-white promotion-item">
                     <h2>SPECIAL COUPON</h2>
-                    <img class="wfull " src="img/white_line.png " alt="white line ">
-                    <div class="text-nowrap ">ที่สุดของความคุ้มค่า เฉพาะเดือนมีนานี้เท่านั้น!</div>
-                    <p class="text-nowrap text-black-50 ">วันนี้-31 มีนาคม 2564</p>
-                    <img class="d-block " src="img/klaifique-serum2.png " alt="product image ">
-                    <img style="position: relative;margin-top: -300px;margin-left: 64px;transform: scale(.5); " src="img/Champaign-Voucher.png " alt=" ">
-                    <div class="d-block ">
-                        <a href="#! " class="text-center ">
+                    <img class="wfull" src="img/white_line.png" alt="white line">
+                    <div class="text-nowrap">ที่สุดของความคุ้มค่า เฉพาะเดือนมีนานี้เท่านั้น!</div>
+                    <p class="text-nowrap text-black-50">วันนี้-31 มีนาคม 2564</p>
+                    <img class="d-block" src="img/klaifique-serum2.png" alt="product image">
+                    <img style="position: relative;margin-top: -300px;margin-left: 64px;transform: scale(.5);"
+                         src="img/Champaign-Voucher.png" alt="">
+                    <div class="d-block">
+                        <a href="#!" class="text-center">
                             <h3>เพิ่มเติม</h3>
                         </a>
                     </div>
                 </div>
-                <div class="col-3 text-white promotion-item ">
+                <div class="col-3 text-white promotion-item">
                     <h2>BUY 1 FREE 1</h2>
-                    <img class="wfull " src="img/white_line.png " alt="white line ">
-                    <div class="text-nowrap ">ที่สุดของความคุ้มค่า เฉพาะเดือนมีนานี้เท่านั้น!</div>
-                    <p class="text-nowrap text-black-50 ">วันนี้-31 มีนาคม 2564</p>
-                    <div class="row " style="transform: scale(2);margin-top: 96px;height: 192px; ">
-                        <div class="col-6 " style="margin-right: -138px;margin-left: 71px; "><img src="img/promotion/Smith_Total%20Sunscreen%20box.png " alt=" "></div>
-                        <div class="col-6 "><img src="img/promotion/Smith_Total%20Sunscreen.png " alt=" "></div>
+                    <img class="wfull" src="img/white_line.png" alt="white line">
+                    <div class="text-nowrap">ที่สุดของความคุ้มค่า เฉพาะเดือนมีนานี้เท่านั้น!</div>
+                    <p class="text-nowrap text-black-50">วันนี้-31 มีนาคม 2564</p>
+                    <div class="row" style="transform: scale(2);margin-top: 96px;height: 192px;">
+                        <div class="col-6" style="margin-right: -138px;margin-left: 71px;"><img src="img/promotion/Smith_Total%20Sunscreen%20box.png" alt=""></div>
+                        <div class="col-6"><img src="img/promotion/Smith_Total%20Sunscreen.png" alt=""></div>
                     </div>
-                    <img src="img/promotion/1free1.png " alt=" " style="margin-top: -190px;position: absolute;margin-left: 100px;z-index: 100; ">
-                    <div class="d-block ">
-                        <a href="#! " class="text-center ">
+                    <img src="img/promotion/1free1.png" alt="" style="margin-top: -190px;position: absolute;margin-left: 100px;z-index: 100;">
+                    <div class="d-block">
+                        <a href="#!" class="text-center">
                             <h3>เพิ่มเติม</h3>
                         </a>
                     </div>
                 </div>
-                <div class="col-3 text-white promotion-item ">
+                <div class="col-3 text-white promotion-item">
                     <h2>SPECIAL PRESENT</h2>
-                    <img class="wfull " src="img/white_line.png " alt="white line ">
-                    <div class="text-nowrap ">ที่สุดของความคุ้มค่า เฉพาะเดือนมีนานี้เท่านั้น!</div>
-                    <p class="text-nowrap text-black-50 ">วันนี้-31 มีนาคม 2564</p>
-                    <img class="d-block " src="img/Basi-clear3.png " alt="product image ">
-                    <div class="d-block ">
-                        <a href="#! " class="text-center ">
+                    <img class="wfull" src="img/white_line.png" alt="white line">
+                    <div class="text-nowrap">ที่สุดของความคุ้มค่า เฉพาะเดือนมีนานี้เท่านั้น!</div>
+                    <p class="text-nowrap text-black-50">วันนี้-31 มีนาคม 2564</p>
+                    <img class="d-block" src="img/Basi-clear3.png" alt="product image">
+                    <div class="d-block">
+                        <a href="#!" class="text-center">
                             <h3>เพิ่มเติม</h3>
                         </a>
                     </div>
@@ -251,21 +255,21 @@
         </div>
     </section>
 </main>
-<footer class="footer_area " style="padding-bottom: 0 ">
-    <div class="container " style="font-size: 24px ">
-        <div class="row ">
-            <div class="col-lg-3 ">
-                <div class="single-footer-area ">
-                    <div class="footer-logo ">
-                        <a href="index.html ">
-                            <img src="img/logo-2.svg " alt=" ">
+<footer class="footer_area" style="padding-bottom: 0">
+    <div class="container" style="font-size: 24px">
+        <div class="row">
+            <div class="col-lg-3">
+                <div class="single-footer-area">
+                    <div class="footer-logo">
+                        <a href="index.html">
+                            <img src="img/logo-2.svg" alt="">
                         </a>
                     </div>
                 </div>
 
             </div>
-            <div class="col-lg-2 ">
-                <div class="footer-list ">
+            <div class="col-lg-2">
+                <div class="footer-list">
                     <ul>
                         <li><a href="index.html ">หน้าหลัก</a></li>
                         <li><a href="# ">รีวิว / บทความ</a></li>
@@ -274,8 +278,8 @@
                 </div>
 
             </div>
-            <div class="col-lg-2 ">
-                <div class="footer-list ">
+            <div class="col-lg-2">
+                <div class="footer-list">
                     <ul>
                         <li><a href="# ">ผลิตภัณฑ์บำรุงผิว</a></li>
                         <li><a href="# ">บริการเสริมความงาม</a></li>
@@ -284,21 +288,21 @@
                 </div>
 
             </div>
-            <div class="col-lg-2 ">
-                <div class="footer-list ">
+            <div class="col-lg-2">
+                <div class="footer-list">
                     <ul>
-                        <li><a href="# ">โปรโมชั่น</a></li>
-                        <li><a href="# ">เกี่ยวกับเรา</a></li>
+                        <li><a href="#">โปรโมชั่น</a></li>
+                        <li><a href="#">เกี่ยวกับเรา</a></li>
                         <li><a href="contact.html ">ติดต่อเรา</a></li>
                     </ul>
                 </div>
             </div>
-            <div class="col-lg-3 ">
-                <div class="footer-title ">
+            <div class="col-lg-3">
+                <div class="footer-title">
                     <h1>สมิทธิ์ พรีเว่ เอสเธทีค</h1>
                     <p>ติดต่อสอบถาม : สาขาสุขุมวิท 02-711-7541 <br>สาขาเลียบด่วน 02-539-7543 </p>
                 </div>
-                <div class="footer-social ">
+                <div class="footer-social">
                     <a href="# "><i class="fab fa-facebook "></i></a>
                     <a href="# "><i class="fab fa-line "></i></a>
                     <a href="# "><i class="fab fa-instagram "></i></a>
@@ -322,7 +326,7 @@
     </div>
 </footer>
 
-<script src="js/jquery.js "></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js "></script>
+<script src="js/jquery.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
 <script src="js/bootstrap.bundle.min.js "></script>
 <script src="js/main.js "></script>
