@@ -44,6 +44,7 @@ $(document).ready(function() {
         margin: 5,
         padding: 5,
         stagePadding: 5,
+        dots:true,
         responsive: {
             0: {
                 items: 1,
@@ -55,7 +56,7 @@ $(document).ready(function() {
             },
             728: {
                 items: 4,
-                dots: false
+                dots: true
             },
             960: {
                 items: 4,
@@ -102,3 +103,15 @@ window.addEventListener('resize', function() {
         nav.classList.add('fixed-top');
     }
 })
+$("#firstmap").click(function(){
+    $("#firstmap").addClass("actbtmap");
+    $("#secondmap").removeClass("actbtmap");
+    $("#map1").show();
+    $("#map2").hide();
+});
+$("#secondmap").click(function(){
+    $("#secondmap").addClass("actbtmap");
+    $("#firstmap").removeClass("actbtmap");
+    $("#map1").hide();
+    $("#map2").show();
+});
