@@ -105,11 +105,9 @@ window.addEventListener('resize', function() {
 });
 
 $('.btn-zoom').magnificPopup({
-    type: 'image'
-        // other options
+    type: 'image'        // other options
 });
 
-})
 $("#firstmap").click(function(){
     $("#firstmap").addClass("actbtmap");
     $("#secondmap").removeClass("actbtmap");
