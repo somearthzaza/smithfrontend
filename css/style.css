@@ -219,13 +219,12 @@ header.masthead {
 .serbiri {
     display: inline;
     position: absolute;
-    font-size: 2vw;
     color: white;
-    margin-left: 43%;
+    margin-left: 45%;
     margin-top: -9%;
     background-color: #33282c;
     text-decoration: none;
-    padding: 10px 30px 10px 30px;
+    padding: 0px 30px 0px 30px;
 }
 
 .imgswap1,
@@ -767,7 +766,20 @@ header.single-product {
     position: relative;
     z-index: 1;
 }
-
+.promoteblock p {
+    margin-bottom: 0;
+    font-size: 25px;
+}
+.promobuy {
+    display: flex;
+    justify-content: center;
+}
+.buypromo {
+    margin: auto;
+    text-decoration: none;
+    color: black;
+    font-size:27px;
+}
 .btn-product {
     text-transform: uppercase;
     color: #CACACA;
@@ -782,7 +794,10 @@ header.single-product {
 .btn-product:focus {
     border-color: #212529;
 }
-
+.ser1 a{
+    font-size: 2vw;
+    text-decoration: none;
+}
 
 /* single product end */
 
@@ -822,17 +837,7 @@ header.single-product {
     .invis{
         display: none;
     }
-    .serbiri {
-        display: inline;
-        position: absolute;
-        font-size: 1vw;
-        color: white;
-        margin-left: 44%;
-        margin-top: -9%;
-        background-color: #33282c;
-        text-decoration: none;
-        padding: 5px 40px 5px 40px;
-    }
+   
     .ser1 a{
         font-size: 2vw;
         text-decoration: none;
@@ -999,18 +1004,7 @@ header.single-product {
     .btpromo {
         margin-top: 30%;
     }
-    .boxger {
-        border-right: black solid 1px;
-        padding-right: 25px;
-
-    }
-    .boxger2{
-        border-left: black solid 1px;
-        padding-left: 25px;
-    }
-    .boxger2 span{
-        display: block;
-    }
+ 
     .boxger p{
       text-align: right;
     }
@@ -1112,10 +1106,20 @@ header.single-product {
     }
     .boxbetween{
         border-left: 1px solid black;
+        margin-left:150px;
     }
     .silderser{
         margin-bottom: 30px;
     }
+    .boxger2{
+        margin-top: 20px;
+    }
+   
+    .boxger2 p{
+        border-left: black solid 1px;
+        padding-left: 25px;
+    }
+
     .cardser{
         margin-bottom: 20px;
         margin-right: 50px;
@@ -1130,6 +1134,9 @@ header.single-product {
     }
     .dataser span{
         display:block;
+    }
+    .newblock{
+        display: block;
     }
     .dataser p {
         font-size: 1.5rem;
@@ -1172,10 +1179,24 @@ header.single-product {
     .bigservice{
         z-index: -5;
     }
+    .bigservice{
+        text-align: right;
+    }
+    .sizeinbox{
+        font-size: 23px;
+    }
+    .sizeinbox1{
+        font-size: 30px;
+    }
     .servicebox{
-        float: right;
+        position: relative;
         z-index: 99;
-       margin-top: -9%;
+        text-align:right ;
+    }
+    .servicebox p{
+        border-right: 1px solid black ;
+        margin-right: 20px;
+        padding-right: 20px;
     }
       /* end css for service page */
       /* start css for servicedetail page*/
