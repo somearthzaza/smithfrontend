@@ -57,12 +57,6 @@
     padding: 10px 10px;
 }
 
-.carousel-indicators {
-    margin-bottom: 5%;
-    border-radius: 50px;
-    justify-content: left;
-}
-
 .carousel-indicators [data-bs-target] {
     width: 15px;
     height: 15px;
@@ -84,11 +78,6 @@
     font-weight: lighter;
     font-size: 8cm;
     margin-bottom: 40px;
-}
-
-.ser1 a {
-    font-size: 2.3vw;
-    text-decoration: none;
 }
 
 .ser1 .textser {
@@ -150,9 +139,6 @@
 .wsrow {
     margin-bottom: 4em;
 }
-.promoteblock p {
-    margin-bottom: 0;
-}
 .promoteblock .imgmiddle {
     width: 100%;
     max-width: 500px;
@@ -176,29 +162,20 @@
     width: 50%;
 }
 .btpromo {
-    margin-left: 13%;
-    margin-top: 18%;
     font-size: 30px;
-    position: absolute;
+    position: relative;
+    display: block;
+    max-width: 40%;
     background-color: #33282c;
     padding-left: 40px;
     padding-right: 40px;
     text-decoration: none;
+    text-align: center;
     color: white;
     transition: 1ms;
+    margin-bottom:40px ;
 }
-.promobuy {
-    display: flex;
-    justify-content: center;
-}
-.buypromo {
-    margin: auto;
-    text-decoration: none;
-    color: #33282c;
-}
-.buypromo:hover {
-    color: #b83a2b;
-}
+
 .cardservice {
     display: block;
 }

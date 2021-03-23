@@ -105,19 +105,32 @@ window.addEventListener('resize', function() {
 });
 
 $('.btn-zoom').magnificPopup({
-    type: 'image'
-        // other options
+    type: 'image'        // other options
 });
 
 $("#firstmap").click(function() {
+
     $("#firstmap").addClass("actbtmap");
     $("#secondmap").removeClass("actbtmap");
+    $("#thirdmap").removeClass("actbtmap");
     $("#map1").show();
     $("#map2").hide();
+    $("#map3").hide();
 });
 $("#secondmap").click(function() {
     $("#secondmap").addClass("actbtmap");
     $("#firstmap").removeClass("actbtmap");
+    $("#thirdmap").removeClass("actbtmap");
     $("#map1").hide();
+    $("#map3").hide();
     $("#map2").show();
 });
+$("#thirdmap").click(function () {
+    $("#thirdmap").addClass("actbtmap");
+   $("#secondmap").removeClass("actbtmap");
+   $("#firstmap").removeClass("actbtmap");
+   $("#map1").hide();
+   $("#map2").hide();
+   $("#map3").show();
+});
+
