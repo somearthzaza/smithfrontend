@@ -973,9 +973,7 @@ header.single-promotion {
     .logonav {
         width: 30%;
     }
-    .btpromo {
-        margin-top: 30%;
-    }
+ 
     .serbiri a {
         font-size: 1.5rem;
     }
@@ -1048,6 +1046,13 @@ header.single-promotion {
     .logonav {
         width: 40%;
     }
+    .imgswap1,
+    .imgswap2 {
+        display: block;
+    }
+    .imgzas1{
+        display: none;
+    }
     .ser1 a {
         font-size: 2rem;
     }
@@ -1057,9 +1062,7 @@ header.single-promotion {
     .serbiri {
         margin-left: 33%;
     }
-    .btpromo {
-        margin-top: 30%;
-    }
+  
     .promoteblock h1 {
         font-size: 3rem;
     }
@@ -1145,9 +1148,7 @@ header.single-promotion {
     .serbiri a {
         font-size: 1.5rem;
     }
-    .btpromo {
-        margin-top: 30%;
-    }
+   
  
     .boxger p{
       text-align: right;
@@ -1219,9 +1220,7 @@ header.single-promotion {
 /* Large devices (desktops, less than 1200px) */
 
 @media only screen and (max-width: 1200px) {
-    .btpromo {
-        margin-top: 30%;
-    }
+    
     .navbar {
         font-size: 99%;
     }
@@ -1305,9 +1304,10 @@ header.single-promotion {
     height: 100%;
 }
 .btswitch
-{
-    margin: 20px 0 0 20px;
-    position: absolute;
+{   
+    margin-top: 20px;
+    right: 0;
+  position: absolute;
 }
 .btswitch button
 {
@@ -1376,8 +1376,8 @@ max-height: 100px;
     border :none;
 }
 .cardser img{
-    height: 350px;
-    width:386px;  
+    height: 300px;
+    width: 400px;
 }
 .dataser span{
     display:block;
