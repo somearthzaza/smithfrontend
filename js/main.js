@@ -44,7 +44,7 @@ $(document).ready(function() {
         margin: 5,
         padding: 5,
         stagePadding: 5,
-        dots:true,
+        dots: true,
         responsive: {
             0: {
                 items: 1,
@@ -108,7 +108,8 @@ $('.btn-zoom').magnificPopup({
     type: 'image'        // other options
 });
 
-$("#firstmap").click(function(){
+$("#firstmap").click(function() {
+
     $("#firstmap").addClass("actbtmap");
     $("#secondmap").removeClass("actbtmap");
     $("#thirdmap").removeClass("actbtmap");
@@ -116,7 +117,7 @@ $("#firstmap").click(function(){
     $("#map2").hide();
     $("#map3").hide();
 });
-$("#secondmap").click(function(){
+$("#secondmap").click(function() {
     $("#secondmap").addClass("actbtmap");
     $("#firstmap").removeClass("actbtmap");
     $("#thirdmap").removeClass("actbtmap");
@@ -132,3 +133,4 @@ $("#thirdmap").click(function () {
    $("#map2").hide();
    $("#map3").show();
 });
+
