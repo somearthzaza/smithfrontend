@@ -1236,181 +1236,176 @@ header.single-promotion {
         padding: 15% 5% 5% 30%;
     }
 }
+ /* start css for servicedetail page*/
+ .serdebox1{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    overflow:hidden;
+}
+.servicedebox{
+ text-align: right;
 
-    /* single product end */
-    
-    
-      /* start css for servicedetail page*/
-        .serdebox1{
-            margin-top: 100px;
-            margin-bottom: 100px;
-            overflow:hidden;
-        }
-        .servicedebox{
-         text-align: right;
+}
+.servicedebox p{
+    margin-top: 20px ;
+    padding-right: 20px;
+    border-right: black 1px solid ;
+}
+.servicedebox2 p{
+    border-left: black 1px solid;
+    margin-left: 20px;
+    padding-left: 20px;
+}
+.servicedebox2{
+    margin-left: 30px;
+}
+.servicedebox2 ul{
+ padding-left: 20px;
+ border-left: 1px black solid;
+}
+.servicedebox2 ul li{
+    list-style: decimal;
+}
+.serimgser{
+    text-align: right;
+}
+.serderight img{
+    max-width: 1000px;
+}
+.serderight{
+    width: 900px;
+    height: 600px;
+    overflow: hidden;
+}
 
-        }
-        .servicedebox p{
-            margin-top: 20px ;
-            padding-right: 20px;
-            border-right: black 1px solid ;
-        }
-        .servicedebox2 p{
-            border-left: black 1px solid;
-            margin-left: 20px;
-            padding-left: 20px;
-        }
-        .servicedebox2{
-            margin-left: 30px;
-        }
-        .servicedebox2 ul{
-         padding-left: 20px;
-         border-left: 1px black solid;
-        }
-        .servicedebox2 ul li{
-            list-style: decimal;
-        }
-        .serimgser{
-            text-align: right;
-        }
-        .serderight img{
-            max-width: 1000px;
-        }
-        .serderight{
-            width: 900px;
-            height: 600px;
-            overflow: hidden;
-        }
-     
-        .coralsel{
-            margin-right: 20px;
-            margin-top: 20px;
-            display: flex;
-        }
-        .servicedebox3{
-            margin-top: 20px;
-        }
-        .servicedebox3 ul li{
-         list-style:disc;
-        }
-        .serdeimg .afters{
-           width: 1000px;
-           height: 110px
-        }
-        .imgleftcallme{
-            padding-left: 350px;
-        }
-        .imgleftcallme img{
-           height: 160px;
-        }
-        .mapbox
-        {
-            position: relative;
-            height: 100%;
-        }
-        .btswitch
-        {
-            margin: 20px 0 0 20px;
-            position: absolute;
-        }
-        .btswitch button
-        {
-            border: 1px solid;
-            border-collapse: collapse;
-            padding: 2px;
-            width: 200px;
-           transition: background-color 1s;
-        }
-        #map2{
-            display: none;
-        }
-        #map3{
-            display: none;
-        }
-        .btswitch button:hover ,button:active , .actbtmap
-        {
-            background-color: #33292C;
-            color: white;
-        }
-        .firstmap ,.secondmap
-        {
-            background-color: white;
-            color: #7D6229;
-        }
-        .servicedebox3 ul
-        {
-            border-left: 1px solid black ;
-            padding-left: 25px;
-        }
-        .coralsel img
-        {
-            border: 1px solid black;
-            margin: auto;
-        max-width:200px;
-        max-height: 100px;
-        }
-      /* end css for servicedetail page*/
-
-
-
-
-/* start css for service page */
-
-.serviceright {
+.coralsel{
+    margin-right: 20px;
+    margin-top: 20px;
+    display: flex;
+}
+.servicedebox3{
+    margin-top: 20px;
+}
+.servicedebox3 ul li{
+ list-style:disc;
+}
+.serdeimg .afters{
+   width: 1000px;
+   height: 110px
+}
+.imgleftcallme{
+    padding-left: 350px;
+}
+.imgleftcallme img{
+   height: 160px;
+}
+.mapbox
+{
+    position: relative;
+    height: 100%;
+}
+.btswitch
+{
+    margin: 20px 0 0 20px;
+    position: absolute;
+}
+.btswitch button
+{
+    border: 1px solid;
+    border-collapse: collapse;
+    padding: 2px;
+    width: 200px;
+   transition: background-color 1s;
+}
+#map2{
+    display: none;
+}
+#map3{
+    display: none;
+}
+.btswitch button:hover ,button:active , .actbtmap
+{
+    background-color: #33292C;
+    color: white;
+}
+.firstmap ,.secondmap
+{
+    background-color: white;
+    color: #7D6229;
+}
+.servicedebox3 ul
+{
+    border-left: 1px solid black ;
+    padding-left: 25px;
+}
+.coralsel img
+{
+    border: 1px solid black;
+    margin: auto;
+max-width:200px;
+max-height: 100px;
+}
+/* end css for servicedetail page*/
+ /* start css for service page */
+ .serviceright{
     margin-top: 13%;
 }
-
-.boxbetween {
+.boxbetween{
     border-left: 1px solid black;
+    margin-left:150px;
 }
-
-.silderser {
+.silderser{
     margin-bottom: 30px;
 }
+.boxger2{
+    margin-top: 20px;
+}
 
-.cardser {
+.boxger2 p{
+    border-left: black solid 1px;
+    padding-left: 25px;
+}
+
+.cardser{
     margin-bottom: 20px;
     margin-right: 50px;
     margin-top: 3rem;
     background: transparent;
     max-height: 100%;
     max-width: 100%;
-    border: none;
+    border :none;
 }
-
-.cardser img {
+.cardser img{
     height: 350px;
-    width:386px;
+    width:386px;  
 }
-
-.dataser span {
+.dataser span{
+    display:block;
+}
+.newblock{
     display: block;
 }
-
 .dataser p {
     font-size: 1.5rem;
-}
-
-.dataser {
+} 
+.dataser{
     margin-top: 20px;
 }
-
-.btser {
+.btser{
     display: flex;
     border: 1px solid #b89b7d;
-    border-collapse: collapse;
+  
+    border-collapse:collapse ;
 }
-
-.btserleft {
-    background: #b89b7d;
+.btserleft{
+    background:#b89b7d ;
     color: white;
 }
-
-.btserright {
+.btserright{
     color: #886a36;
 }
 
-.btser a {
+.btser a{
     width: 100%;
     border: 1px solid #e1d1ba;
     border-right: 0px;
@@ -1418,30 +1413,45 @@ header.single-promotion {
     text-align: center;
 }
 
-.servicedata {
+.servicedata{
     margin-top: 60px;
     margin-bottom: 60px;
 }
-
-.boxbetween span {
+.boxbetween span{
     display: block;
 }
-
-.boxbetween p {
+.boxbetween  p{
     margin: 0;
 }
-
-.bigservice {
+.bigservice{
     z-index: -5;
 }
-
-.servicebox {
-    float: right;
-    z-index: 99;
+.bigservice{
+    text-align: right;
 }
+.sizeinbox{
+    font-size: 23px;
+}
+.sizeinbox1{
+    font-size: 30px;
+}
+.servicebox{
+    position: relative;
+    z-index: 99;
+    text-align:right ;
+}
+.servicebox p{
+    border-right: 1px solid black ;
+    margin-right: 20px;
+    padding-right: 20px;
+}
+  /* end css for service page */
+    /* single product end */
+    
 
 
-/* end css for service page */
+
+
 
 
 
