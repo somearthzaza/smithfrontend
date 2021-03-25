@@ -531,14 +531,14 @@ header.masthead {
     background-size: 600px;
 }
 
-.card {
+.product-section .card {
     max-width: 100%;
     border: none;
     background: transparent;
     margin-top: 3rem;
 }
 
-.card-body {
+.product-section .card-body {
     height: 200px;
     background-image: url("../img/line.png");
     background-attachment: scroll;
@@ -547,13 +547,13 @@ header.masthead {
     background-repeat: no-repeat;
 }
 
-.card-title {
+.product-section .card-title {
     text-transform: uppercase;
     color: #7D6229;
     font-weight: 400;
 }
 
-.card-text {
+.product-section .card-text {
     font-size: 18px;
     font-weight: 400;
     color: #33292c;
@@ -601,7 +601,7 @@ header.masthead {
     background-attachment: scroll;
     background-position: top right;
     background-repeat: no-repeat;
-    background-size: 400px;
+    background-size: 300px;
     padding-top: 5rem;
 }
 
@@ -735,6 +735,11 @@ header.single-product {
     cursor: pointer;
 }
 
+.product-buy img {
+    width: 100%;
+    max-width: 250px;
+}
+
 .product-tab {
     height: 200px;
 }
@@ -759,6 +764,7 @@ header.single-product {
 }
 
 .product-tab p {
+    margin-top: 1rem;
     font-size: 22px;
     color: #505964;
     font-weight: 400;
@@ -802,15 +808,17 @@ header.single-product {
     margin-bottom: 0;
     font-size: 25px;
 }
+
 .promobuy {
     display: flex;
     justify-content: center;
 }
+
 .buypromo {
     margin: auto;
     text-decoration: none;
     color: black;
-    font-size:27px;
+    font-size: 27px;
 }
 
 .btn-product {
@@ -828,13 +836,13 @@ header.single-product {
     border-color: #212529;
 }
 
-.ser1 a{
+.ser1 a {
     font-size: 2vw;
     text-decoration: none;
 }
 
-/* single product end */
 
+/* single product end */
 
 
 /* ---------------------------------- single product end ---------------------------------- */
@@ -848,6 +856,7 @@ header.single-product {
     background-position: bottom left;
     background-repeat: no-repeat;
     background-size: 500px;
+    position: relative;
 }
 
 .testimonial-promo-section {
@@ -932,6 +941,34 @@ header.single-promotion {
     background-repeat: no-repeat;
 }
 
+.promotion-slide-section .card {
+    max-width: 100%;
+    border: none;
+    background: transparent;
+    margin-top: 3rem;
+}
+
+.promotion-slide-section .card-body {
+    height: 200px;
+    background-image: url("../img/line.png");
+    background-attachment: scroll;
+    background-size: auto;
+    background-position: left top;
+    background-repeat: no-repeat;
+}
+
+.promotion-slide-section .card-title {
+    text-transform: uppercase;
+    color: white;
+    font-weight: 400;
+}
+
+.promotion-slide-section .card-text {
+    font-size: 18px;
+    font-weight: 400;
+    color: white;
+}
+
 .card-promotion {
     margin-left: 1rem;
     margin-right: 1rem;
@@ -973,7 +1010,6 @@ header.single-promotion {
     .logonav {
         width: 30%;
     }
- 
     .serbiri a {
         font-size: 1.5rem;
     }
@@ -983,8 +1019,7 @@ header.single-promotion {
     .invis {
         display: none;
     }
-   
-    .ser1 a{
+    .ser1 a {
         font-size: 2vw;
         text-decoration: none;
     }
@@ -992,7 +1027,6 @@ header.single-promotion {
     .imgswap2 {
         display: none;
     }
-
     .promoteblock h1 {
         font-size: 2rem;
     }
@@ -1013,7 +1047,6 @@ header.single-promotion {
     .test102 {
         margin: auto;
     }
- 
     .product-propertie {
         background-image: url(../img/product/bg_mid-08.jpg);
         padding: 5% 5% 5% 5%;
@@ -1050,7 +1083,7 @@ header.single-promotion {
     .imgswap2 {
         display: block;
     }
-    .imgzas1{
+    .imgzas1 {
         display: none;
     }
     .ser1 a {
@@ -1062,7 +1095,6 @@ header.single-promotion {
     .serbiri {
         margin-left: 33%;
     }
-  
     .promoteblock h1 {
         font-size: 3rem;
     }
@@ -1148,21 +1180,17 @@ header.single-promotion {
     .serbiri a {
         font-size: 1.5rem;
     }
-   
- 
-    .boxger p{
-      text-align: right;
+    .boxger p {
+        text-align: right;
     }
- 
-    .boxger span{
+    .boxger span {
         display: block;
-    
     }
     .underimg1 p {
         padding-left: 25px;
         font-size: 1.5rem;
     }
-    .underimg1{
+    .underimg1 {
         margin-top: 10px;
         border-left: solid 1px black;
     }
@@ -1175,7 +1203,6 @@ header.single-promotion {
     }
     /*SERVICE ZONE */
     /* single product */
-    
     header.single-product {
         padding-top: 10rem;
         padding-bottom: 8rem;
@@ -1200,7 +1227,6 @@ header.single-promotion {
     .test102 {
         margin: auto;
     }
-   
     .test {
         margin-left: 0;
     }
@@ -1217,10 +1243,10 @@ header.single-promotion {
     }
 }
 
+
 /* Large devices (desktops, less than 1200px) */
 
 @media only screen and (max-width: 1200px) {
-    
     .navbar {
         font-size: 99%;
     }
@@ -1228,184 +1254,220 @@ header.single-promotion {
         font-size: 16px;
     }
 }
-  
+
 @media only screen and (min-width:2560px) {
     .product-propertie {
         background-image: url(../img/product/mid-08-test.png);
         padding: 15% 5% 5% 30%;
     }
 }
- /* start css for servicedetail page*/
- .serdebox1{
+
+
+/* start css for servicedetail page*/
+
+.serdebox1 {
     margin-top: 100px;
     margin-bottom: 100px;
-    overflow:hidden;
+    overflow: hidden;
 }
-.servicedebox{
- text-align: right;
 
+.servicedebox {
+    text-align: right;
 }
-.servicedebox p{
-    margin-top: 20px ;
+
+.servicedebox p {
+    margin-top: 20px;
     padding-right: 20px;
-    border-right: black 1px solid ;
+    border-right: black 1px solid;
 }
-.servicedebox2 p{
+
+.servicedebox2 p {
     border-left: black 1px solid;
     margin-left: 20px;
     padding-left: 20px;
 }
-.servicedebox2{
+
+.servicedebox2 {
     margin-left: 30px;
 }
-.servicedebox2 ul{
- padding-left: 20px;
- border-left: 1px black solid;
+
+.servicedebox2 ul {
+    padding-left: 20px;
+    border-left: 1px black solid;
 }
-.servicedebox2 ul li{
+
+.servicedebox2 ul li {
     list-style: decimal;
 }
-.serimgser{
+
+.serimgser {
     text-align: right;
 }
-.serderight img{
+
+.serderight img {
     max-width: 1000px;
 }
-.serderight{
+
+.serderight {
     width: 900px;
     height: 600px;
     overflow: hidden;
 }
 
-.coralsel{
+.coralsel {
     margin-right: 20px;
     margin-top: 20px;
     display: flex;
 }
-.servicedebox3{
+
+.servicedebox3 {
     margin-top: 20px;
 }
-.servicedebox3 ul li{
- list-style:disc;
+
+.servicedebox3 ul li {
+    list-style: disc;
 }
-.serdeimg .afters{
-   width: 1000px;
-   height: 110px
+
+.serdeimg .afters {
+    width: 1000px;
+    height: 110px
 }
-.imgleftcallme{
+
+.imgleftcallme {
     padding-left: 350px;
 }
-.imgleftcallme img{
-   height: 160px;
+
+.imgleftcallme img {
+    height: 160px;
 }
-.mapbox
-{
+
+.mapbox {
     position: relative;
     height: 100%;
 }
-.btswitch
-{   
+
+.btswitch {
     margin-top: 20px;
     right: 0;
-  position: absolute;
+    position: absolute;
 }
-.btswitch button
-{
+
+.btswitch button {
     border: 1px solid;
     border-collapse: collapse;
     padding: 2px;
     width: 200px;
-   transition: background-color 1s;
+    transition: background-color 1s;
 }
-#map2{
+
+#map2 {
     display: none;
 }
-#map3{
+
+#map3 {
     display: none;
 }
-.btswitch button:hover ,button:active , .actbtmap
-{
+
+.btswitch button:hover,
+button:active,
+.actbtmap {
     background-color: #33292C;
     color: white;
 }
-.firstmap ,.secondmap
-{
+
+.firstmap,
+.secondmap {
     background-color: white;
     color: #7D6229;
 }
-.servicedebox3 ul
-{
-    border-left: 1px solid black ;
+
+.servicedebox3 ul {
+    border-left: 1px solid black;
     padding-left: 25px;
 }
-.coralsel img
-{
+
+.coralsel img {
     border: 1px solid black;
     margin: auto;
-max-width:200px;
-max-height: 100px;
+    max-width: 200px;
+    max-height: 100px;
 }
+
+
 /* end css for servicedetail page*/
- /* start css for service page */
- .serviceright{
+
+
+/* start css for service page */
+
+.serviceright {
     margin-top: 13%;
 }
-.boxbetween{
+
+.boxbetween {
     border-left: 1px solid black;
-    margin-left:150px;
+    margin-left: 150px;
 }
-.silderser{
+
+.silderser {
     margin-bottom: 30px;
 }
-.boxger2{
+
+.boxger2 {
     margin-top: 20px;
 }
 
-.boxger2 p{
+.boxger2 p {
     border-left: black solid 1px;
     padding-left: 25px;
 }
 
-.cardser{
+.cardser {
     margin-bottom: 20px;
     margin-right: 50px;
     margin-top: 3rem;
     background: transparent;
     max-height: 100%;
     max-width: 100%;
-    border :none;
+    border: none;
 }
-.cardser img{
+
+.cardser img {
     height: 300px;
     width: 400px;
 }
-.dataser span{
-    display:block;
-}
-.newblock{
+
+.dataser span {
     display: block;
 }
+
+.newblock {
+    display: block;
+}
+
 .dataser p {
     font-size: 1.5rem;
-} 
-.dataser{
+}
+
+.dataser {
     margin-top: 20px;
 }
-.btser{
+
+.btser {
     display: flex;
     border: 1px solid #b89b7d;
-  
-    border-collapse:collapse ;
+    border-collapse: collapse;
 }
-.btserleft{
-    background:#b89b7d ;
+
+.btserleft {
+    background: #b89b7d;
     color: white;
 }
-.btserright{
+
+.btserright {
     color: #886a36;
 }
 
-.btser a{
+.btser a {
     width: 100%;
     border: 1px solid #e1d1ba;
     border-right: 0px;
@@ -1413,45 +1475,178 @@ max-height: 100px;
     text-align: center;
 }
 
-.servicedata{
+.servicedata {
     margin-top: 60px;
     margin-bottom: 60px;
 }
-.boxbetween span{
+
+.boxbetween span {
     display: block;
 }
-.boxbetween  p{
+
+.boxbetween p {
     margin: 0;
 }
-.bigservice{
+
+.bigservice {
     z-index: -5;
 }
-.bigservice{
+
+.bigservice {
     text-align: right;
 }
-.sizeinbox{
+
+.sizeinbox {
     font-size: 23px;
 }
-.sizeinbox1{
+
+.sizeinbox1 {
     font-size: 30px;
 }
-.servicebox{
+
+.servicebox {
     position: relative;
     z-index: 99;
-    text-align:right ;
+    text-align: right;
 }
-.servicebox p{
-    border-right: 1px solid black ;
+
+.servicebox p {
+    border-right: 1px solid black;
     margin-right: 20px;
     padding-right: 20px;
 }
-  /* end css for service page */
-    /* single product end */
-    
 
 
+/* end css for service page */
 
 
+/* -------------------------------------------- doctor page --------------------------------------------------- */
+
+.doctor-detail-section {
+    padding-top: 5rem;
+    background-image: url("../img/doctor/Text-inner-Docter.png");
+    background-position: left;
+    background-repeat: no-repeat;
+    position: relative;
+    background-size: auto;
+}
+
+.doctor-detail-section .detailbox {
+    border-left: 1px solid black;
+    padding-left: 30px;
+}
+
+.doctor-detail-section .detailbox p {
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.doctor-section {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    position: relative;
+    background-image: url("../img/doctor/pic_bg.png");
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+.doctor-section .doctor-img img {
+    padding-top: 1rem;
+}
+
+.doctor-section .doctor-type {
+    padding-left: 1rem;
+    padding-top: 1rem;
+    font-size: 28px;
+    color: #7D6229;
+    font-weight: 400;
+}
+
+.doctor-section .doctor-name {
+    padding-left: 1rem;
+    color: #33292C;
+    font-weight: 400;
+}
 
 
+/* -------------------------------------------- end doctor page --------------------------------------------------- */
 
+
+/* -------------------------------------------- FAQ section ------------------------------------------------------- */
+
+.faq-section {
+    padding-top: 5rem;
+    background-image: url("../img/q&a/bg_pic-02.png");
+    background-position: bottom left;
+    background-repeat: no-repeat;
+    position: relative;
+    background-size: auto;
+    height: 100vh;
+}
+
+.faq-section .faq-container {
+    width: 100%;
+    height: 700px;
+}
+
+.faq-section .faq-header {
+    border-bottom: 2px solid #e0e0e0;
+}
+
+.faq-section .faq-img img {
+    max-width: 400px;
+    width: 100%;
+}
+
+.faq-section .card {
+    max-width: 100%;
+    border: none;
+    padding: 2rem;
+}
+
+.faq-section .card-img-container {
+    border-bottom: 2px solid #e0e0e0;
+    margin-bottom: 3rem;
+}
+
+.faq-section .card-img-top {
+    width: 100%;
+    max-width: 400px;
+}
+
+.scroll {
+    position: relative;
+    overflow-y: scroll;
+    height: 400px;
+}
+
+.scrollbar-ripe-malinka::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    background-color: #F5F5F5;
+}
+
+.scrollbar-ripe-malinka::-webkit-scrollbar {
+    width: 12px;
+    background-color: #F5F5F5;
+}
+
+.scrollbar-ripe-malinka::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
+    background-color: #505964;
+}
+
+.faq-section .card-text:nth-child(1) {
+    color: #505965;
+    font-weight: 700;
+}
+
+.faq-section .card-text:nth-child(2) {
+    font-weight: 400;
+    color: #505965;
+}
+
+
+/* -------------------------------------------- end FAQ section ------------------------------------------------------- */

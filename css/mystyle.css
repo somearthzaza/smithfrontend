@@ -159,6 +159,7 @@
     border-left: black solid 1px;
     padding-left: 25px;
     margin-left: 18%;
+    margin-top: 18%;
     width: 50%;
 }
 .btpromo {
@@ -174,9 +175,8 @@
     text-align: center;
     color: white;
     transition: 1ms;
-    margin-bottom:40px ;
+    margin-bottom: 40px;
 }
-
 .cardservice {
     display: block;
 }
