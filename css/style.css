@@ -659,12 +659,12 @@ header.masthead {
     color: #505965;
 }
 
-.testimonial-readmore {
-    margin-top: 8rem;
-}
-
 .testimonial-readmore a {
     color: #505964;
+}
+
+.testimonial-readmore a:hover {
+    color: #B83A2A;
 }
 
 
@@ -819,6 +819,12 @@ header.single-product {
     text-decoration: none;
     color: black;
     font-size: 27px;
+}
+
+.buypromo:hover,
+.buypromo:focus,
+.buypromo.focus {
+    color: #B83A2A;
 }
 
 .btn-product {
@@ -1650,3 +1656,190 @@ button:active,
 
 
 /* -------------------------------------------- end FAQ section ------------------------------------------------------- */
+
+
+/* -------------------------------------------- review&article section ------------------------------------------------------- */
+
+header.review-video-slider {
+    background-image: url("../img/review_article/Gray-shadow.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+}
+
+.review-video-slider .container-fluid {
+    margin-top: 8rem;
+}
+
+.review-video-slider .video-section .item {
+    opacity: 0.4;
+    transition: .4s ease all;
+    margin: 0 20px;
+    transform: scale(.8);
+}
+
+@media(max-width:1000px) {
+    .review-video-slider .video-section .item {
+        margin: 0;
+        transform: scale(.9)
+    }
+}
+
+.review-video-slider .video-section .active .item {
+    opacity: 1;
+    transform: scale(1);
+}
+
+.review-video-slider .video-section .owl-item {
+    -webkit-backface-visibility: hidden;
+    -webkit-transform: translateZ(0) scale(1.0, 1.0);
+}
+
+.review-video-slider .video-section video {
+    max-width: 100%;
+    height: auto;
+}
+
+.review-video-slider .video-text {
+    margin-top: 1.5rem;
+    border-left: 1px solid black;
+    padding-left: 30px;
+}
+
+.review-video-slider .video-text p {
+    font-size: 24px;
+    font-weight: 400;
+    color: #33292c;
+    ;
+}
+
+.review-video-slider .video-text span {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.r-section {
+    padding-top: 6rem;
+    background-image: url("../img/promotion/review.png");
+    background-attachment: scroll;
+    background-position: top right;
+    background-repeat: no-repeat;
+    background-size: 400px;
+    position: relative;
+}
+
+.r-blog {
+    margin-right: 1px;
+    margin-left: 1px;
+}
+
+.r-blog .r-date {
+    border-top: 5px solid #B83A2A;
+}
+
+.r-blog .r-date p {
+    font-size: 18px;
+    color: #505965;
+    text-align: right;
+}
+
+.r-blog .r-date h5 {
+    color: #33292c;
+    font-weight: 700;
+    text-align: right;
+}
+
+.r-blog .r-title h5 {
+    color: #7D6229;
+    font-size: 32px;
+    font-weight: 400;
+    margin-bottom: 2rem;
+}
+
+.r-blog .r-text {
+    font-size: 26px;
+    color: #505965;
+}
+
+.r-blog .r-readmore a {
+    color: #505964;
+}
+
+.r-blog .r-readmore a:hover {
+    color: #B83A2A;
+}
+
+.plyr__control--overlaid {
+    background: #fff !important;
+    color: #7D6229 !important;
+}
+
+.review-all-section {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.a-section {
+    padding-top: 6rem;
+    background-image: url("../img/review_article/article-text.png");
+    background-attachment: scroll;
+    background-position: top right;
+    background-repeat: no-repeat;
+    background-size: 400px;
+    position: relative;
+}
+
+.a-blog {
+    margin-right: 1px;
+    margin-left: 1px;
+}
+
+.a-blog .a-date {
+    border-top: 5px solid #B83A2A;
+}
+
+.a-blog .a-date p {
+    font-size: 18px;
+    color: #505965;
+    text-align: right;
+}
+
+.a-blog .a-date h5 {
+    color: #33292c;
+    font-weight: 700;
+    text-align: right;
+}
+
+.a-blog .a-title h5 {
+    color: #7D6229;
+    font-size: 32px;
+    font-weight: 400;
+    margin-bottom: 2rem;
+}
+
+.a-blog .a-text {
+    font-size: 26px;
+    color: #505965;
+}
+
+.a-blog .a-readmore a {
+    color: #505964;
+}
+
+.a-blog .a-readmore a:hover {
+    color: #B83A2A;
+}
+
+.modal-open .modal-backdrop {
+    background-color: #7D6229;
+}
+
+.article-all-section {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+
+/* -------------------------------------------- end review&article section ------------------------------------------------------- */
