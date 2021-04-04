@@ -870,7 +870,7 @@ header.single-product {
     background-attachment: scroll;
     background-position: top right;
     background-repeat: no-repeat;
-    background-size: 400px;
+    background-size: 300px;
     position: relative;
 }
 
@@ -887,8 +887,8 @@ header.single-product {
 /* ---------------------------------- promotion detail page ------------------------------ */
 
 header.single-promotion {
-    padding-top: 10rem;
-    padding-bottom: 8rem;
+    padding-top: 7rem;
+    padding-bottom: 7rem;
     background-image: url("../img/promotion/Gray-shadow\ .png");
     background-repeat: no-repeat;
     background-attachment: scroll;
@@ -899,15 +899,16 @@ header.single-promotion {
     overflow: hidden;
 }
 
-.promotion-title h1 {
+.promotion-title .promotion-title-text {
     font-size: 48px;
     text-transform: uppercase;
     color: #505964;
 }
 
-.promotion-content .promotion-red {
+.promotion-title .promotion-red {
     color: #B83A2A;
     font-weight: 400;
+    font-size: 28px;
 }
 
 .promotion-content .promotion-black {
@@ -918,7 +919,7 @@ header.single-promotion {
 .promotion-price .price {
     color: #e0e0e0;
     font-weight: 300;
-    font-size: 200px;
+    font-size: 180px;
 }
 
 .promotion-price .default {
@@ -930,9 +931,15 @@ header.single-promotion {
 
 .promotion-buy {
     width: 100%;
-    max-width: 300px;
-    padding-top: 2rem;
+    max-width: 250px;
+    padding-top: 1rem;
     padding-bottom: 2rem;
+    opacity: 1;
+}
+
+.promotion-buy:hover {
+    transition: 0.3s ease-in-out;
+    opacity: 0.6;
 }
 
 .promotion-special h3 {
@@ -1377,13 +1384,12 @@ header.single-promotion {
 .btswitch button:hover,
 button:active,
 .actbtmap {
-    background-color: #33292C;
     color: white;
+    background-color: #33292C;
 }
 
 .firstmap,
 .secondmap {
-    background-color: white;
     color: #7D6229;
 }
 
@@ -1576,6 +1582,16 @@ button:active,
 }
 
 
+/* 
+ #service_doctor {
+    display: block;
+} */
+
+#surgery_doctor {
+    display: none;
+}
+
+
 /* -------------------------------------------- end doctor page --------------------------------------------------- */
 
 
@@ -1726,7 +1742,7 @@ header.review-video-slider {
     background-attachment: scroll;
     background-position: top right;
     background-repeat: no-repeat;
-    background-size: 400px;
+    background-size: 300px;
     position: relative;
 }
 
