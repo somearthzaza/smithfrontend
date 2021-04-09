@@ -840,7 +840,11 @@ header.single-product {
     font-size: 2vw;
     text-decoration: none;
 }
-
+.bgpro{
+    background-image:url("../img/Text-inner-Home2.png");
+    background-repeat: no-repeat;
+    background-size:auto;
+}
 
 /* single product end */
 
@@ -1270,12 +1274,16 @@ header.single-promotion {
     margin-bottom: 100px;
     overflow: hidden;
 }
-
+.imgserdetail img{
+    max-width: 1000px;
+    max-height: 800px;
+}
 .servicedebox {
     text-align: right;
 }
 
 .servicedebox p {
+    font-size: 1.5vw;
     margin-top: 20px;
     padding-right: 20px;
     border-right: black 1px solid;
@@ -1304,13 +1312,11 @@ header.single-promotion {
     text-align: right;
 }
 
-.serderight img {
-    max-width: 1000px;
-}
 
 .serderight {
-    width: 900px;
-    height: 600px;
+    width: 100%;
+    height: 100%;
+    max-height: 800px;
     overflow: hidden;
 }
 
@@ -1326,13 +1332,19 @@ header.single-promotion {
 
 .servicedebox3 ul li {
     list-style: disc;
+    font-size: 1.3vw;
 }
 
 .serdeimg .afters {
-    width: 1000px;
-    height: 110px
+    display: inline-block ;
 }
-
+.serdeimg .beforeimg{
+    max-width: 500px;
+   max-height: 100px;
+}
+.serdeimg .befores{
+    display: block;
+}
 .imgleftcallme {
     padding-left: 350px;
 }
@@ -1340,7 +1352,14 @@ header.single-promotion {
 .imgleftcallme img {
     height: 160px;
 }
-
+.scarser{
+   
+    margin: 20px;
+    background: transparent;
+    max-height: 100%;
+    max-width: 100%;
+    border: none;
+}
 .mapbox {
     position: relative;
     height: 100%;
@@ -1359,13 +1378,25 @@ header.single-promotion {
     width: 200px;
     transition: background-color 1s;
 }
-
 #map2 {
     display: none;
 }
-
 #map3 {
     display: none;
+}
+.dataser p{
+    text-transform: uppercase;
+    
+    white-space: nowrap ;
+}
+.cardser {
+    margin-bottom: 20px;
+    margin-right: 50px;
+    margin-top: 3rem;
+    background: transparent;
+    max-height: 100%;
+    max-width: 100%;
+    border: none;
 }
 
 .btswitch button:hover,
@@ -1405,7 +1436,7 @@ button:active,
 
 .boxbetween {
     border-left: 1px solid black;
-    margin-left: 150px;
+    margin: auto;
 }
 
 .silderser {
@@ -1421,20 +1452,7 @@ button:active,
     padding-left: 25px;
 }
 
-.cardser {
-    margin-bottom: 20px;
-    margin-right: 50px;
-    margin-top: 3rem;
-    background: transparent;
-    max-height: 100%;
-    max-width: 100%;
-    border: none;
-}
 
-.cardser img {
-    height: 300px;
-    width: 400px;
-}
 
 .dataser span {
     display: block;
@@ -1515,8 +1533,51 @@ button:active,
     margin-right: 20px;
     padding-right: 20px;
 }
+.controlimg img{
+    max-height: 1000px;
+    min-height: 400px;
+    max-width: 1000px;
+    min-width: 400px;
+    width: 100%;
+    height: 100%;
+}
 
+.headname{
+    font-family: 'dbHelvethaica';
+    line-height: 0.8;
+    font-size: 8vw;
+    display:inline-block;
+    white-space: nowrap;
+    font-weight:100;
+    margin-bottom: 0;
+    color:#dedede;
+}
+.bannerser{
+    white-space: nowrap;
+    font-weight: 100;
+    padding: 10px;
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    background-color:#322931 ;
+}
+.serimgser{
+    height: auto;
+}
+ul.bluelist{
+    list-style-type:circle;
+    list-style:circle;
+    
+    border-right: 1px solid black;
+    padding-right: 20px;
+}
 
+.bluepara{
+    font-size: 1.5vw;
+    margin-top: 20px;
+   
+    
+}
 /* end css for service page */
 
 

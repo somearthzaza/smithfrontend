@@ -88,7 +88,7 @@
 .ser1 .maimg {
     bottom: 0;
     float: right;
-    margin-top: 10%;
+    
     margin-left: 100%;
     max-height: 400px;
     clear: both;
@@ -159,7 +159,7 @@
     border-left: black solid 1px;
     padding-left: 25px;
     margin-left: 18%;
-    margin-top: 18%;
+    margin-top: 750px;
     width: 50%;
 }
 .btpromo {
