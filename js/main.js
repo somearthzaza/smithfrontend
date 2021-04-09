@@ -106,7 +106,7 @@ $(document).ready(function() {
         }
     });
 
-});
+
 
 // $('#reviewslider').owlCarousel({
 //     items: 1,
@@ -220,7 +220,7 @@ $('#a-slide').owlCarousel({
         },
     }
 });
-
+});
 var nav = document.querySelector("nav");
 
 window.addEventListener('scroll', function() {
