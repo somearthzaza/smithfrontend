@@ -107,6 +107,120 @@ $(document).ready(function() {
     });
 
 });
+
+// $('#reviewslider').owlCarousel({
+//     items: 1,
+//     merge: true,
+//     loop: true,
+//     margin: 10,
+//     video: true,
+//     lazyLoad: true,
+//     center: true,
+//     responsive: {
+//         480: {
+//             items: 2
+//         },
+//         768: {
+//             items: 4
+//         }
+//     }
+// })
+
+$('#reviewslider').owlCarousel({
+    stagePadding: 200,
+    loop: true,
+    margin: 10,
+    items: 1,
+    responsive: {
+        0: {
+            items: 1,
+            stagePadding: 60
+        },
+        600: {
+            items: 1,
+            stagePadding: 100
+        },
+        1000: {
+            items: 1,
+            stagePadding: 200
+        },
+        1200: {
+            items: 1,
+            stagePadding: 250
+        },
+        1400: {
+            items: 1,
+            stagePadding: 300
+        },
+        1600: {
+            items: 1,
+            stagePadding: 350
+        },
+        1800: {
+            items: 1,
+            stagePadding: 400
+        }
+    }
+});
+
+$('#r-slide').owlCarousel({
+    autoplay: true,
+    nav: true,
+    loop: true,
+    margin: 10,
+    responsive: {
+        0: {
+            items: 1,
+            dots: false
+        },
+        480: {
+            items: 1,
+            dots: false
+        },
+        768: {
+            items: 1,
+            dots: false
+        },
+        992: {
+            items: 1,
+            dots: true
+        },
+        1200: {
+            items: 1,
+            dots: true
+        },
+    }
+});
+
+$('#a-slide').owlCarousel({
+    autoplay: true,
+    nav: true,
+    loop: true,
+    margin: 10,
+    responsive: {
+        0: {
+            items: 1,
+            dots: false
+        },
+        480: {
+            items: 1,
+            dots: false
+        },
+        768: {
+            items: 1,
+            dots: false
+        },
+        992: {
+            items: 1,
+            dots: true
+        },
+        1200: {
+            items: 1,
+            dots: true
+        },
+    }
+});
+
 var nav = document.querySelector("nav");
 
 window.addEventListener('scroll', function() {
@@ -142,7 +256,7 @@ window.addEventListener('resize', function() {
 });
 
 $('.btn-zoom').magnificPopup({
-    type: 'image'        // other options
+    type: 'image' // other options
 });
 
 $("#firstmap").click(function() {
@@ -162,12 +276,20 @@ $("#secondmap").click(function() {
     $("#map3").hide();
     $("#map2").show();
 });
-$("#thirdmap").click(function () {
+$("#thirdmap").click(function() {
     $("#thirdmap").addClass("actbtmap");
-   $("#secondmap").removeClass("actbtmap");
-   $("#firstmap").removeClass("actbtmap");
-   $("#map1").hide();
-   $("#map2").hide();
-   $("#map3").show();
+    $("#secondmap").removeClass("actbtmap");
+    $("#firstmap").removeClass("actbtmap");
+    $("#map1").hide();
+    $("#map2").hide();
+    $("#map3").show();
 });
 
+$("#btn-service").click(function() {
+    $("#service_doctor").show();
+    $("#surgery_doctor").hide();
+});
+$("#btn-surgery").click(function() {
+    $("#service_doctor").hide();
+    $("#surgery_doctor").show();
+});
