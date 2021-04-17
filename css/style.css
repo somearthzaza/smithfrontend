@@ -106,11 +106,6 @@ header.masthead {
     background-repeat: no-repeat;
 }
 
-.contact-text .nav-tabs .nav-link {
-    display: block;
-    width: 100%;
-}
-
 
 /* .contact-text .nav-tabs {
     border: none;
@@ -235,6 +230,50 @@ header.masthead {
     -o-transform: scale(1.1) rotate(360deg);
     transform: scale(1.1) rotate(360deg);
 } */
+
+@media only screen and (min-width: 768px) {
+    .responsive-tabs .dropdown-arrow {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .responsive-tabs {
+        position: relative;
+        border: 1px solid #ccc;
+    }
+    .responsive-tabs li {
+        width: 100%;
+        margin: 0 !important;
+    }
+    .responsive-tabs li>a {
+        display: none;
+        border: 0 !important;
+        border-radius: 0 !important;
+    }
+    .responsive-tabs.open li>a,
+    .responsive-tabs li>a.active {
+        display: block;
+    }
+    .responsive-tabs .dropdown-arrow {
+        position: absolute;
+        top: 15px;
+        right: 15px;
+        border: solid #fff;
+        border-width: 0 3px 3px 0;
+        display: inline-block;
+        padding: 3px;
+        vertical-align: middle;
+        transform: rotate(45deg);
+        -webkit-transform: rotate(45deg);
+        transition: all ease .5s;
+        cursor: pointer;
+    }
+    .responsive-tabs.open .dropdown-arrow {
+        transform: rotate(-135deg);
+        transition: all ease .5s;
+    }
+}
 
 .arrowpos {
     padding-top: 9px;
@@ -1013,12 +1052,10 @@ header.single-promotion {
         padding: 0;
     }
     .contact-text {
-        padding-bottom: 0;
-        padding-left: 2rem;
+        padding: 0rem 2rem 0rem 2rem;
     }
     .contact-icon {
-        padding-bottom: 2rem;
-        padding-left: 2rem;
+        padding: 0rem 2rem 2rem 2rem;
     }
     .logonav {
         width: 30%;
@@ -1142,12 +1179,19 @@ header.single-promotion {
         min-height: 375px;
     }
     .contact-text {
-        padding-bottom: 0;
-        padding-left: 2rem;
+        padding: 0rem 2rem 0rem 2rem;
     }
     .contact-icon {
-        padding-bottom: 2rem;
-        padding-left: 2rem;
+        padding: 0rem 2rem 2rem 2rem;
+    }
+    .detailbox {
+        background-color: #333;
+    }
+    #d-img-1 {
+        display: none !important;
+    }
+    #d-img-2 {
+        display: block !important;
     }
 }
 
@@ -1170,12 +1214,10 @@ header.single-promotion {
         background-position: top left;
     }
     .contact-text {
-        padding-bottom: 0;
-        padding-left: 2rem;
+        padding: 0rem 2rem 2rem 2rem;
     }
     .contact-icon {
-        padding-bottom: 2rem;
-        padding-left: 2rem;
+        padding: 0rem 2rem 2rem 2rem;
     }
     nav,
     .cenlist {
@@ -1247,12 +1289,10 @@ header.single-promotion {
         margin-left: 0;
     }
     .contact-text {
-        padding-bottom: 0;
-        padding-left: 2rem;
+        padding: 0rem 2rem 0rem 2rem;
     }
     .contact-icon {
-        padding-bottom: 2rem;
-        padding-left: 2rem;
+        padding: 0rem 2rem 2rem 2rem;
     }
 }
 
@@ -1536,11 +1576,11 @@ button:active,
 
 .doctor-detail-section {
     padding-top: 5rem;
-    background-image: url("../img/doctor/Text-inner-Docter.png");
+    /* background-image: url("../img/doctor/Text-inner-Docter.png");
     background-position: left;
     background-repeat: no-repeat;
     position: relative;
-    background-size: auto;
+    background-size: auto; */
 }
 
 .doctor-detail-section .detailbox {
@@ -1591,6 +1631,20 @@ button:active,
     display: none;
 }
 
+.center-all {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#d-img-1 {
+    display: block;
+}
+
+#d-img-2 {
+    display: none;
+}
+
 
 /* -------------------------------------------- end doctor page --------------------------------------------------- */
 
@@ -1625,6 +1679,7 @@ button:active,
     max-width: 100%;
     border: none;
     padding: 2rem;
+    margin: 0 1rem 0 1rem;
 }
 
 .faq-section .card-img-container {
