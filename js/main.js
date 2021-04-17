@@ -51,11 +51,11 @@ $(document).ready(function() {
                 dots: false
             },
             480: {
-                items: 2,
+                items:  1,
                 dots: false
             },
             768: {
-                items: 4,
+                items: 3,
                 dots: true
             },
             992: {
@@ -66,10 +66,47 @@ $(document).ready(function() {
                 items: 4,
                 dots: true
             },
+            
+        }
+    });
+    $('#cardservice2').owlCarousel({
+        autoplay: true,
+        autoplayhoverpause: true,
+        autoplaytimeout: 100,
+        items: 4,
+        nav: true,
+        loop: true,
+        lazyLoad: true,
+        margin: 5,
+        padding: 5,
+        stagePadding: 5,
+        dots: true,
+        responsive: {
+            0: {
+                items: 1,
+                dots: false
+            },
+            480: {
+                items:  1,
+                dots: false
+            },
+            768: {
+                items: 3,
+                dots: true
+            },
+            992: {
+                items: 4,
+                dots: true
+            },
+            1200: {
+                items: 4,
+                dots: true
+            },
+            
         }
     });
 
-});
+
 
 // $('#reviewslider').owlCarousel({
 //     items: 1,
@@ -183,7 +220,7 @@ $('#a-slide').owlCarousel({
         },
     }
 });
-
+});
 var nav = document.querySelector("nav");
 
 window.addEventListener('scroll', function() {
