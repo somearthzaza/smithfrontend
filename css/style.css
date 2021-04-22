@@ -403,6 +403,8 @@ header.masthead {
     background-color: #fff;
     padding-top: 60px;
     padding-bottom: 60px;
+    padding-left: 40px;
+    padding-right: 40px;
     border-top: 2px solid #e5e5e5;
 }
 
@@ -466,6 +468,10 @@ header.masthead {
 .footer-title p {
     color: #33292C;
     font-size: 18px;
+}
+
+.footer-title .p2 {
+    padding-right: 2rem;
 }
 
 .copyright {
