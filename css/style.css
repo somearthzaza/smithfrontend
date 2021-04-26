@@ -403,6 +403,8 @@ header.masthead {
     background-color: #fff;
     padding-top: 60px;
     padding-bottom: 60px;
+    padding-left: 40px;
+    padding-right: 40px;
     border-top: 2px solid #e5e5e5;
 }
 
@@ -444,7 +446,6 @@ header.masthead {
     border-radius: 50%;
     line-height: 40px;
     text-align: center;
-    background: #ffffff;
     -webkit-transition: all, 0.3s;
     -moz-transition: all, 0.3s;
     -ms-transition: all, 0.3s;
@@ -467,6 +468,10 @@ header.masthead {
 .footer-title p {
     color: #33292C;
     font-size: 18px;
+}
+
+.footer-title .p2 {
+    padding-right: 2rem;
 }
 
 .copyright {
@@ -567,7 +572,7 @@ header.masthead {
     background-attachment: scroll;
     background-position: top left;
     background-repeat: no-repeat;
-    background-size: 600px;
+    background-size: 450px;
 }
 
 .product-section .card {
@@ -885,11 +890,13 @@ header.single-product {
     font-size: 2vw;
     text-decoration: none;
 }
-.bgpro{
-    background-image:url("../img/Text-inner-Home2.png");
+
+.bgpro {
+    background-image: url("../img/Text-inner-Home2.png");
     background-repeat: no-repeat;
-    background-size:auto;
+    background-size: auto;
 }
+
 
 /* single product end */
 
@@ -1197,6 +1204,12 @@ header.single-promotion {
     #d-img-2 {
         display: block !important;
     }
+    .desk-img {
+        display: none !important;
+    }
+    .mobile-img {
+        display: block !important;
+    }
 }
 
 
@@ -1327,10 +1340,12 @@ header.single-promotion {
     margin-bottom: 100px;
     overflow: hidden;
 }
-.imgserdetail img{
+
+.imgserdetail img {
     max-width: 1000px;
     max-height: 800px;
 }
+
 .servicedebox {
     text-align: right;
 }
@@ -1365,7 +1380,6 @@ header.single-promotion {
     text-align: right;
 }
 
-
 .serderight {
     width: 100%;
     height: 100%;
@@ -1389,15 +1403,18 @@ header.single-promotion {
 }
 
 .serdeimg .afters {
-    display: inline-block ;
+    display: inline-block;
 }
-.serdeimg .beforeimg{
+
+.serdeimg .beforeimg {
     max-width: 500px;
-   max-height: 100px;
+    max-height: 100px;
 }
-.serdeimg .befores{
+
+.serdeimg .befores {
     display: block;
 }
+
 .imgleftcallme {
     padding-left: 350px;
 }
@@ -1405,14 +1422,15 @@ header.single-promotion {
 .imgleftcallme img {
     height: 160px;
 }
-.scarser{
-   
+
+.scarser {
     margin: 20px;
     background: transparent;
     max-height: 100%;
     max-width: 100%;
     border: none;
 }
+
 .mapbox {
     position: relative;
     height: 100%;
@@ -1431,17 +1449,20 @@ header.single-promotion {
     width: 200px;
     transition: background-color 1s;
 }
+
 #map2 {
     display: none;
 }
+
 #map3 {
     display: none;
 }
-.dataser p{
+
+.dataser p {
     text-transform: uppercase;
-    
-    white-space: nowrap ;
+    white-space: nowrap;
 }
+
 .cardser {
     margin-bottom: 20px;
     margin-right: 50px;
@@ -1503,8 +1524,6 @@ button:active,
     border-left: black solid 1px;
     padding-left: 25px;
 }
-
-
 
 .dataser span {
     display: block;
@@ -1585,7 +1604,8 @@ button:active,
     margin-right: 20px;
     padding-right: 20px;
 }
-.controlimg img{
+
+.controlimg img {
     max-height: 1000px;
     min-height: 400px;
     max-width: 1000px;
@@ -1594,42 +1614,44 @@ button:active,
     height: 100%;
 }
 
-.headname{
+.headname {
     font-family: 'dbHelvethaica';
     line-height: 0.8;
     font-size: 8vw;
-    display:inline-block;
+    display: inline-block;
     white-space: nowrap;
-    font-weight:100;
+    font-weight: 100;
     margin-bottom: 0;
-    color:#dedede;
+    color: #dedede;
 }
-.bannerser{
+
+.bannerser {
     white-space: nowrap;
     font-weight: 100;
     padding: 10px;
     display: inline-block;
     text-decoration: none;
     color: white;
-    background-color:#322931 ;
+    background-color: #322931;
 }
-.serimgser{
+
+.serimgser {
     height: auto;
 }
-ul.bluelist{
-    list-style-type:circle;
-    list-style:circle;
-    
+
+ul.bluelist {
+    list-style-type: circle;
+    list-style: circle;
     border-right: 1px solid black;
     padding-right: 20px;
 }
 
-.bluepara{
+.bluepara {
     font-size: 1.5vw;
     margin-top: 20px;
-   
-    
 }
+
+
 /* end css for service page */
 
 
@@ -1975,3 +1997,25 @@ header.review-video-slider {
 
 
 /* -------------------------------------------- end review&article section ------------------------------------------------------- */
+
+
+/* fix banner */
+
+.desk-img {
+    display: block;
+}
+
+.mobile-img {
+    display: none;
+}
+
+.boxunder-promotion {
+    border-left: black solid 1px;
+    padding-left: 25px;
+    margin-left: 18%;
+    margin-top: 18%;
+    width: 50%;
+}
+
+
+/* end fix banner  */
