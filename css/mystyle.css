@@ -88,12 +88,13 @@
 .ser1 .maimg {
     bottom: 0;
     float: right;
-    
     margin-left: 100%;
     max-height: 400px;
     clear: both;
 }
-
+.maimg{
+    margin-top: 40px;
+}
 .ser2 img {
     margin-top: 120px;
     max-height: 100%;
