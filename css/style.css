@@ -1747,7 +1747,10 @@ header.single-promotion {
     text-align: center;
 }
 
-
+.cardser img ,.scarser img{
+   height: 40%;
+   min-height: 400px;
+}
 /* end promotion detail page */
 
 
