@@ -1750,6 +1750,7 @@ header.single-promotion {
 .cardser img ,.scarser img{
    height: 40%;
    min-height: 400px;
+   max-height:400px;
 }
 /* end promotion detail page */
 
@@ -1843,6 +1844,11 @@ header.single-promotion {
     .logonav {
         width: 40%;
     }
+    .cardser img ,.scarser img{
+        height: unset;
+        min-height: unset;
+        max-height:unset;
+     }
     .cardser{
         margin-left: 20px;
         margin-right: 20px;
@@ -1936,6 +1942,7 @@ header.single-promotion {
     .mobile-img {
         display: block !important;
     }
+  
 }
 
 
@@ -2067,6 +2074,7 @@ header.single-promotion {
     .footer-title p {
         font-size: 16px;
     }
+  
 }
 
 @media only screen and (min-width:2560px) {
@@ -2076,5 +2084,12 @@ header.single-promotion {
     }
 }
 
-
+@media (min-width:576px) and (max-width:1200px)
+{
+    .cardser img ,.scarser img{
+        height: 40%;
+        min-height: 0px;
+        max-height:400px;
+     }
+}
 /* end fix banner  */
